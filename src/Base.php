@@ -11,7 +11,7 @@ use Adamkiss\FluentToolkit\FluentArray;
 use Adamkiss\FluentToolkit\FluentString;
 
 class Base {
-	protected $value = null;
+	public $value = null;
 
 	public function __construct($value = null) {
 		$this->value = $value;
