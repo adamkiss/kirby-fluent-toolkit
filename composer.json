@@ -1,5 +1,6 @@
 {
     "name": "adamkiss/kirby-fluent-toolkit",
+	"version": "0.2.0",
     "description": "Fluent, Extendable version of Toolkit classes for Kirby",
     "type": "library",
     "license": "MIT",

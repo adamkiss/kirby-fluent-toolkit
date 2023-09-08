@@ -11,6 +11,15 @@ class FluentCollection extends Collection {
 	use Macroable;
 
 	/**
+	 * Gives access to self and the returns self without change
+	 */
+	public function tap(callable $callback): self
+	{
+		$callback($this);
+		return $this;
+	}
+
+	/**
 	 * Convert the collection to a FluentArray, with an optional map closure
 	 */
 	function toFluentArray(\Closure $map = null) : FluentArray {
