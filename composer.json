@@ -1,7 +1,8 @@
 {
     "name": "adamkiss/kirby-fluent-toolkit",
     "description": "Fluent, Extendable version of Toolkit classes for Kirby",
-    "type": "library",
+    "type": "kirby-plugin",
+    "keywords": ["kirby", "kirby-plugin", "fluent", "extendable", "toolkit"],
     "license": "MIT",
     "autoload": {
         "psr-4": {
